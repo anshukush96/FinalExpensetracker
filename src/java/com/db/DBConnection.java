@@ -21,9 +21,9 @@ public class DBConnection {
     public static Connection getConnection(){
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                String url="jdbc:mysql://localhost:3306/online_expense_tracker";
-            String un="root";
-            String ps="Anshu";
+                String url="jdbc:mysql://your-ec2-public-ip:3306/online_expense_tracker";
+            String un="expensetracker_user";
+            String ps="secure_password";
             conn=DriverManager.getConnection(url,un,ps);
             System.out.println("Database connectivity success");
             } catch (ClassNotFoundException ex) {

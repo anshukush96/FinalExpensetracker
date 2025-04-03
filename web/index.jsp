@@ -57,7 +57,7 @@
 
 
 
-	<script>
+<!--	<script>
 		window.embeddedChatbotConfig = {
 			chatbotId : "bcEFfHt7t41Rd3cbWp415",
 			domain : "www.chatbase.co"
@@ -66,7 +66,7 @@
 	<script src="https://www.chatbase.co/embed.min.js"
 		chatbotId="bcEFfHt7t41Rd3cbWp415" domain="www.chatbase.co" defer>
 		
-	</script>
+	</script>-->
 
 </body>
 </html>
